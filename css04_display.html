@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        /* 기본적인 blcok level <p>를 inline으로 */
+            .one > p{
+                display: inline;
+            }
+        /* inline level <span> --> block level  */
+            span{
+                display: block;
+            }
+            .two{
+                display: none;
+            }
+    </style>
+</head>
+<body>
+<div  class="one">
+ <p>Hello</p>
+ <p>world</p>
+</div>
+<div class="two">
+ <p>Hello2</p>
+ <p>world2</p>
+</div>
+<p>Hello3<span>world3</span></p>
+</body>
+</html>

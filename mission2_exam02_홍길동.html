@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.container{
+  width: 1200px;
+  height: 600px;
+  border: 2px solid black;
+  position: relative;
+}
+  h1{
+    text-align: center;
+  }
+  
+  .type1{
+   font-size: 20px;
+   margin: 10px;
+   top: 100px;
+   line-height: 40px;
+   word-spacing: 250px;
+  }
+
+  .type2{
+    text-align: center;
+  }
+  .type2 > .button{
+    width: 100px;
+    height: 40px;
+  }
+  
+</style>
+  <title>Document</title>
+</head>
+<body>
+<div class="container">
+  <h1>회원 가입</h1>
+  <hr>
+  <div class="type1">
+    <table border="0">
+      <tr>
+        <th>아이디</th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>비밀번호</th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>비밀번호확인</th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>이름</th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+        <td><input type="text" placeholder="우편번호">
+          </td>
+      </tr>
+      <tr>
+        <th>주소</th>
+        <td><input type="text" placeholder="주소"></td>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+        <td><input type="text" placeholder="상세 주소"></td>
+      </tr>
+      <tr>
+        <th>전화번호</th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>이메일</th>
+        <td><input type="text"></td>
+      </tr>
+    </table>  
+  </div>
+  <hr>
+  <div class="type2">
+    <input type="button" value="회원가입" size="100px">
+    <input type="button" value="지우기">
+  </div>
+</div>
+</body>
+</html>

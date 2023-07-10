@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        p{
+            color: indigo;
+            text-align: center;
+            text-decoration: line-through;
+            text-transform: capitalize;
+            /* 글자에 대문자 / 소문자 주기 */
+        }
+        /* a[href] - a태그 href로 한정 p.small = p태그의 small class 지정 */
+        p.small{
+            color: blueviolet;
+            text-align: right;
+            /* 위치 (왼쪽 가운데 오른쪽) */
+            text-decoration: overline;
+            /* 글씨에 밑줄, 가운데줄 위에줄 */
+            line-height: 2;
+            /* 라인 사이의 간격 */
+        }
+        div{
+            width: 200px;
+            height: 250px;
+            border: 1px solid red;
+            text-align: justify;
+            /* 글자 양쪽으로 흐트려놓기 */
+            text-indent: 20px;
+            /* 첫줄 글자 앞에 빈칸 */
+        }
+        h1{
+            letter-spacing: -5;
+            /* 글자사이 간격 */
+        }
+        h2{
+            word-spacing: 20px;
+            /* 단어사이 간격 */
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum</p>
+    <div>
+       In my younger and more vulnerable years my father 
+       gave me some advice that I've been turning over 
+       in my mind ever since. 'Whenever you feel like criticizing 
+       anyone,' he told me, 'just remember that all the people in 
+       this world haven't had the advantages that you've had.'
+    </div>
+    <p class="small">
+       smaller line-height.<br>
+       smaller line-height.<br>
+    </p>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+ </body>
+ 
+</html>
